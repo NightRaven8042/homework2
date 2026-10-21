@@ -1,0 +1,153 @@
+
+/* Color scheme: deep purple, soft lavender, and white */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f0fa;
+    color: #302544;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Type selector */
+h2 {
+    color: #633b8f;
+    border-bottom: 2px solid #c5a7e8;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+/* Class selector */
+.hero {
+    background-color: #633b8f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #c5a7e8;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+nav {
+    background-color: #e5d8f5;
+    padding: 12px;
+    margin: 20px;
+    border: 1px solid #c5a7e8;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #633b8f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #302544;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid #e0d2ef;
+    border-radius: 10px;
+}
+
+.content-card {
+    background-color: #faf7ff;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border: 1px solid #d7c2ed;
+    border-left: 5px solid #8054ad;
+    border-radius: 6px;
+}
+
+.content-card h3 {
+    color: #633b8f;
+    margin-top: 0;
+}
+
+.writing-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid #c5a7e8;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ID selector */
+#tips {
+    border-top: 5px solid #8054ad;
+}
+
+footer {
+    background-color: #302544;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
